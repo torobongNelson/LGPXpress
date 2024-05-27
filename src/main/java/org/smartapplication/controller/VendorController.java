@@ -7,6 +7,8 @@ import org.smartapplication.dtos.response.Product.AddProductResponse;
 import org.smartapplication.dtos.response.Product.ProductResponse;
 import org.smartapplication.dtos.response.Product.UpdateProductResponse;
 import org.smartapplication.exceptions.VendorNotFoundException;
+import org.smartapplication.model.Product;
+import org.smartapplication.services.Implementations.ProductServiceImpl;
 import org.smartapplication.services.Implementations.StoreServiceImpl;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -42,7 +44,7 @@ public class VendorController {
 
     @PostMapping("/add/{vendorId}")
     public ResponseEntity<AddProductResponse> addProduct(@PathVariable("vendorId") Long vendorId, @RequestBody AddProductRequest request ) throws Exception {
-        var addedProduct = productService.addProduct(vendorId, request);
+        var addedProduct = productService.addProduct( request);
         return new ResponseEntity<>(addedProduct, HttpStatus.CREATED);
     }
     @GetMapping("/{id}")
