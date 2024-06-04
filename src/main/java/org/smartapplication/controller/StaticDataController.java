@@ -36,13 +36,13 @@ public class StaticDataController {
         return new ResponseEntity<>(locations, HttpStatus.OK);
     }
 
-    @GetMapping("/product-categories")
-    public ResponseEntity<List<String>> getProductCategories() {
-        List<String> categories = Arrays.stream(ProductCategory.values())
-                .map(Enum::name)
-                .collect(Collectors.toList());
-        return new ResponseEntity<>(categories, HttpStatus.OK);
-    }
+//    @GetMapping("/product-categories")
+//    public ResponseEntity<List<String>> getProductCategories() {
+//        List<String> categories = Arrays.stream(ProductCategory.values())
+//                .map(Enum::name)
+//                .collect(Collectors.toList());
+//        return new ResponseEntity<>(categories, HttpStatus.OK);
+//    }
 
     @GetMapping("/payment-method")
     public ResponseEntity<List<String>> getPaymentMethod() {
