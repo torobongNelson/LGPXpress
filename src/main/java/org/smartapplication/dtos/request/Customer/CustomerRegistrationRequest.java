@@ -8,5 +8,10 @@ import org.smartapplication.model.Enums.Location;
 @Setter
 public class CustomerRegistrationRequest {
     private String address;
+    private String firstName;
+    private String lastName;
+    private String email;
+    private String password;
+    private String phoneNumber;
     private Location location;
 }

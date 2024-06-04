@@ -5,16 +5,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5f39f929-9e91-420e-854d-adbc9b5af63f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/smartapplication/dtos/request/Product/AddProductRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/smartapplication/dtos/request/Product/UpdateProductRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/smartapplication/dtos/response/Product/AddProductResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/smartapplication/dtos/response/Product/ProductResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/smartapplication/dtos/response/Product/UpdateProductResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/smartapplication/model/Enums/ProductCategory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/smartapplication/model/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/smartapplication/repositories/ProductRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/smartapplication/Config/BeanConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/smartapplication/Utils/Constants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/smartapplication/controller/LocationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/smartapplication/dtos/request/LocationRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/smartapplication/dtos/request/Order/ItemRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/smartapplication/dtos/response/LocationResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/smartapplication/dtos/response/Order/CancelOrderResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/smartapplication/exceptions/OrderNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/smartapplication/exceptions/UnpaidOrderAlreadyExists.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/smartapplication/repositories/OrderItemRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/smartapplication/services/CustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/smartapplication/services/Implementations/CustomerServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/smartapplication/services/Implementations/LocationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/smartapplication/config/TestBeanConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/smartapplication/controller/LocationControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/smartapplication/services/OrderServiceTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/smartapplication/controller/StaticDataController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/smartapplication/controller/StaticDataController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/smartapplication/dtos/request/Customer/CustomerRegistrationRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/smartapplication/dtos/request/Customer/CustomerRegistrationRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/smartapplication/dtos/request/Order/CreateOrderRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/smartapplication/dtos/request/Order/CreateOrderRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/smartapplication/model/Store.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/smartapplication/model/Store.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/smartapplication/model/Vendor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/smartapplication/model/Vendor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/smartapplication/repositories/OrderRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/smartapplication/repositories/OrderRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/smartapplication/services/Implementations/OrderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/smartapplication/services/Implementations/OrderServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/smartapplication/services/Implementations/StoreServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/smartapplication/services/Implementations/StoreServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/smartapplication/services/OrderServiceInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/smartapplication/services/OrderService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/smartapplication/services/CustomerServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/smartapplication/services/CustomerServiceImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/smartapplication/services/VendorServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/smartapplication/services/VendorServiceImplTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +45,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
+        <option value="JUnit5 Test Class" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -61,10 +83,14 @@
     "RunOnceActivity.go.formatter.settings.were.checked": "true",
     "RunOnceActivity.go.migrated.go.modules.settings": "true",
     "Spring Boot.GasPurchaseCon.executor": "Run",
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "git-widget-placeholder": "main",
     "go.import.settings.migrated": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Samuel/Desktop/GasPurchaseCon2 (1)",
+    "last_directory_selection": "C:/Users/Daniel/Desktop/LGPXpress/src/main/java/org/smartapplication/services",
+    "last_opened_file_path": "C:/Users/Daniel/Desktop/GasPurchaseCon3",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -74,7 +100,41 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="org.smartapplication.services" />
+      <recent name="org.smartapplication.dtos.request.Order" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="org.smartapplication.controller" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.smartapplication.dtos.response" />
+      <recent name="org.smartapplication.dtos.request" />
+      <recent name="org.smartapplication.services" />
+      <recent name="org.smartapplication.controller" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.OrderServiceTest.placeOrderTest">
+    <configuration name="OrderServiceTest.placeOrderTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="GasPurchaseCon" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.smartapplication.services.Implementations.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.smartapplication.services" />
+      <option name="MAIN_CLASS_NAME" value="org.smartapplication.services.OrderServiceTest" />
+      <option name="METHOD_NAME" value="placeOrderTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="GasPurchaseCon" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="GasPurchaseCon" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="org.smartapplication.GasPurchaseCon" />
@@ -82,6 +142,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.OrderServiceTest.placeOrderTest" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -109,11 +174,23 @@
       <workItem from="1716677945796" duration="227000" />
       <workItem from="1716678222664" duration="31031000" />
       <workItem from="1716815456799" duration="1703000" />
+      <workItem from="1717419995900" duration="13836000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VgoProject">
     <integration-enabled>false</integration-enabled>

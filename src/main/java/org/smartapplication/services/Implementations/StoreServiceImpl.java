@@ -4,6 +4,7 @@ import org.smartapplication.exceptions.ProductNotFoundException;
 import org.smartapplication.exceptions.StoreNotFoundException;
 import org.smartapplication.exceptions.VendorNotFoundException;
 import org.smartapplication.model.Store;
+import org.smartapplication.repositories.ProductRepository;
 import org.smartapplication.repositories.StoreRepository;
 import org.smartapplication.repositories.VendorRepository;
 import org.smartapplication.repositories.VendorStoreIdRepository;

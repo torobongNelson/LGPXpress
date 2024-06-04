@@ -1,14 +1,15 @@
 package org.smartapplication.dtos.request.Order;
 
-import lombok.Getter;
-import lombok.Setter;
+import lombok.*;
+import org.smartapplication.model.Customer;
+import org.smartapplication.model.Order;
+import org.smartapplication.model.OrderItems;
 
 import java.util.List;
 @Getter
 @Setter
 public class CreateOrderRequest {
-    private List<Long> items;
-    private String deliveryAddress;
-    private String phoneNumber;
-    private long cartId;
+    private Order order;
+    private List<OrderItems> orderItems;
+    private Customer customer;
 }
