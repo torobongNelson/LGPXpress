@@ -1,4 +1,4 @@
-package org.smartapplication.dtos.response.Vendor;
+package org.smartapplication.dtos.response.Product;
 
 import lombok.Getter;
 import lombok.Setter;
@@ -9,7 +9,7 @@ import java.time.LocalDateTime;
 
 @Getter
 @Setter
-public class VendorProductResponse {
+public class UpdateProductResponse {
     private  Long id;
     private String name;
     private BigDecimal price;
@@ -19,4 +19,5 @@ public class VendorProductResponse {
     private ProductCategory productCategory;
     private LocalDateTime createdAt;
     private LocalDateTime updatedAt;
+    private String message;
 }
