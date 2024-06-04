@@ -5,6 +5,8 @@ import jakarta.validation.constraints.NotEmpty;
 import lombok.Getter;
 import lombok.Setter;
 
+import java.math.BigInteger;
+
 import static jakarta.persistence.GenerationType.IDENTITY;
 
 @Entity
@@ -26,4 +28,7 @@ public class OrderItems {
 
     @NotEmpty(message = "quantity cannot be blank")
     private Integer quantity;
+
+    @NotEmpty(message = "quantity cannot be blank")
+    private BigInteger amount;
 }

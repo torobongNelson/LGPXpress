@@ -2,6 +2,7 @@ package org.smartapplication.controller;
 
 import org.smartapplication.model.Enums.Location;
 import org.smartapplication.model.Enums.PaymentMethod;
+import org.smartapplication.model.Enums.ProductCategory;
 import org.smartapplication.model.Enums.Roles;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

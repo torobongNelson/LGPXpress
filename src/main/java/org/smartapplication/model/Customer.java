@@ -29,4 +29,9 @@ public class Customer {
 
     @OneToOne(mappedBy = "customer")
     private  Order orders;
+
+
+    private String email;
+
+
 }
