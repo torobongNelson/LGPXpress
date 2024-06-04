@@ -14,5 +14,4 @@ public class AddProductRequest {
     private String description;
     private Integer quantity;
     private ProductCategory productCategory;
-    private Long vendorId;
 }

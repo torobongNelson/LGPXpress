@@ -6,10 +6,12 @@ import org.smartapplication.dtos.request.Vendor.AddToStoreRequest;
 import org.smartapplication.dtos.response.Product.AddProductResponse;
 import org.smartapplication.dtos.response.Product.ProductResponse;
 import org.smartapplication.dtos.response.Product.UpdateProductResponse;
+import org.smartapplication.exceptions.ProductAlreadyAddedToStoreException;
 import org.smartapplication.exceptions.VendorNotFoundException;
 import org.smartapplication.model.Product;
 import org.smartapplication.services.Implementations.ProductServiceImpl;
 import org.smartapplication.services.Implementations.StoreServiceImpl;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -20,8 +22,11 @@ import java.util.List;
 @RestController
 @RequestMapping("/api/product")
 public class VendorController {
-    private final ProductServiceImpl productService;
-    private final StoreServiceImpl storeService;
+
+    @Autowired
+    private ProductServiceImpl productService;
+    @Autowired
+    private StoreServiceImpl storeService;
 
 
     public VendorController(ProductServiceImpl productService, StoreServiceImpl storeService) {
@@ -61,7 +66,7 @@ public class VendorController {
 
 
     @PostMapping("/add-to-store")
-    public ResponseEntity addToStore(@RequestBody AddToStoreRequest request) throws VendorNotFoundException {
+    public ResponseEntity addToStore(@RequestBody AddToStoreRequest request) throws ProductAlreadyAddedToStoreException {
         try {
             storeService.addProductToStore(request.getProductId(), request.getVendorId());
             return new ResponseEntity<>(HttpStatus.CREATED);
