@@ -5,14 +5,14 @@ import jakarta.persistence.*;
 import jakarta.validation.constraints.NotEmpty;
 import lombok.Getter;
 import lombok.Setter;
-import org.smartapplication.model.Enums.Location;
+// import org.smartapplication.model.Enums.Location;
 
 import java.util.List;
 
 import static jakarta.persistence.GenerationType.IDENTITY;
 
-@Getter
-@Setter
+// @Getter
+// @Setter
 @Entity
 public class Vendor {
     @Id
@@ -27,15 +27,15 @@ public class Vendor {
 
     private Boolean registrationStatus;
 
-    @Enumerated(EnumType.STRING)
-    private Location location;
+    // @Enumerated(EnumType.STRING)
+    // private Location location;
 
     @NotEmpty(message = "business registration number cannot be blank.")
     private String  regNo;
 
-    @OneToOne
-    @JoinColumn(name = "user_id")
-    private User user;
+    // @OneToOne
+    // @JoinColumn(name = "user_id")
+    // private User user;
 
 
 

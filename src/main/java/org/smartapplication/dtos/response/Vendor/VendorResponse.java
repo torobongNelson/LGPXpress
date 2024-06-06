@@ -2,7 +2,7 @@ package org.smartapplication.dtos.response.Vendor;
 
 import lombok.Getter;
 import lombok.Setter;
-import org.smartapplication.model.Enums.Location;
+// import org.smartapplication.model.Enums.Location;
 
 @Getter
 @Setter
@@ -11,6 +11,6 @@ public class VendorResponse {
     private String companyName;
     private String companyAddress;
     private boolean registrationStatus;
-    private Location location;
+    // private Location location;
     private String regNo;
 }

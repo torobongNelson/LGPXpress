@@ -1,7 +1,15 @@
 package org.smartapplication.repositories;
 
+// import org.smartapplication.model.Order;
+// import org.smartapplication.model.OrderItems;
 import org.springframework.data.jpa.repository.JpaRepository;
 
-public interface OrderItemRepository extends JpaRepository<OrderItems, Long> {
-    void deleteAllByOrder(Order order);
-}
+import java.util.Optional;
+
+// public interface OrderItemRepository extends JpaRepository<OrderItems, Long> {
+    // void deleteAllByOrder(Order order);
+
+    // Optional<OrderItems> findByOrderAndProduct(Order order, Product product);
+
+    // void deleteByOrderId(Long id);
+// }

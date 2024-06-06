@@ -2,7 +2,7 @@ package org.smartapplication.controller;
 
 import org.smartapplication.dtos.request.InitializeTransactionRequest;
 import org.smartapplication.dtos.response.paystack.PaystackTransactionResponse;
-import org.smartapplication.services.TransactionService;
+// import org.smartapplication.services.TransactionService;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.util.MultiValueMap;

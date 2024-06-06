@@ -2,7 +2,7 @@ package org.smartapplication.dtos.response.Vendor;
 
 import lombok.Getter;
 import lombok.Setter;
-import org.smartapplication.model.Enums.ProductCategory;
+// import org.smartapplication.model.Enums.ProductCategory;
 
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
@@ -16,7 +16,7 @@ public class VendorProductResponse {
     private String description;
     private Integer quantity;
     private Boolean isAvailable;
-    private ProductCategory productCategory;
+    // private ProductCategory productCategory;
     private LocalDateTime createdAt;
     private LocalDateTime updatedAt;
 }
