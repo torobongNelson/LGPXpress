@@ -5,36 +5,97 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5f39f929-9e91-420e-854d-adbc9b5af63f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/smartapplication/Config/BeanConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/smartapplication/Utils/Constants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/smartapplication/controller/LocationController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/smartapplication/dtos/request/LocationRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/smartapplication/dtos/request/Order/ItemRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/smartapplication/dtos/response/LocationResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/smartapplication/dtos/response/Order/CancelOrderResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/smartapplication/exceptions/OrderNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/smartapplication/exceptions/UnpaidOrderAlreadyExists.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/smartapplication/repositories/OrderItemRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/smartapplication/services/CustomerService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/smartapplication/services/Implementations/CustomerServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/smartapplication/services/Implementations/LocationService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/smartapplication/config/TestBeanConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/smartapplication/controller/LocationControllerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/smartapplication/services/OrderServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/smartapplication/services/Implementations/Dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/smartapplication/controller/StaticDataController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/smartapplication/controller/StaticDataController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/smartapplication/dtos/request/Customer/CustomerRegistrationRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/smartapplication/dtos/request/Customer/CustomerRegistrationRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/smartapplication/Config/BeanConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/smartapplication/Config/CorsConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/smartapplication/controller/AdminController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/smartapplication/controller/AuthController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/smartapplication/controller/CustomerController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/smartapplication/controller/LocationController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/smartapplication/controller/StaticDataController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/smartapplication/controller/VendorController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/smartapplication/dtos/request/Admin/AdminRegistrationRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/smartapplication/dtos/request/Auth/LoginRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/smartapplication/dtos/request/Auth/RegistrationRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/smartapplication/dtos/request/Auth/UpdateUserRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/smartapplication/dtos/request/Customer/CustomerRegistrationRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/smartapplication/dtos/request/Customer/UpdateCustomerRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/smartapplication/dtos/request/EmailSenderRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/smartapplication/dtos/request/LocationRequest.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/smartapplication/dtos/request/Order/CreateOrderRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/smartapplication/dtos/request/Order/CreateOrderRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/smartapplication/model/Store.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/smartapplication/model/Store.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/smartapplication/model/Vendor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/smartapplication/model/Vendor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/smartapplication/repositories/OrderRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/smartapplication/repositories/OrderRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/smartapplication/dtos/request/Product/AddProductRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/smartapplication/dtos/request/Product/UpdateProductRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/smartapplication/dtos/request/Vendor/AddToStoreRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/smartapplication/dtos/request/Vendor/UpdateVendorRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/smartapplication/dtos/request/Vendor/VendorRegistrationRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/smartapplication/dtos/response/Admin/AdminRegistrationResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/smartapplication/dtos/response/ApiResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/smartapplication/dtos/response/Auth/LoginResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/smartapplication/dtos/response/Auth/RegistrationResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/smartapplication/dtos/response/Auth/VendorLoginResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/smartapplication/dtos/response/Customer/CustomerRegistrationResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/smartapplication/dtos/response/Customer/CustomerResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/smartapplication/dtos/response/Customer/UpdateCustomerResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/smartapplication/dtos/response/EmailSenderResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/smartapplication/dtos/response/LocationResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/smartapplication/dtos/response/Product/AddProductResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/smartapplication/dtos/response/Product/ProductResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/smartapplication/dtos/response/Product/UpdateProductResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/smartapplication/dtos/response/Vendor/UpdateVendorResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/smartapplication/dtos/response/Vendor/VendorProductResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/smartapplication/dtos/response/Vendor/VendorRegistrationResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/smartapplication/dtos/response/Vendor/VendorResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/smartapplication/exceptions/CustomerAlreadyExistException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/smartapplication/exceptions/CustomerNotFoundException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/smartapplication/exceptions/InvalidDetailsException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/smartapplication/exceptions/ProductNotFoundException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/smartapplication/exceptions/StoreNotFoundException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/smartapplication/exceptions/UserNotFoundException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/smartapplication/exceptions/VendorNotFoundException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/smartapplication/model/Admin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/smartapplication/model/Customer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/smartapplication/model/Enums/Location.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/smartapplication/model/Enums/PaymentMethod.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/smartapplication/model/Enums/ProductCategory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/smartapplication/model/Enums/Roles.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/smartapplication/model/Enums/TransactionStatus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/smartapplication/model/Product.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/smartapplication/model/Store.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/smartapplication/model/Transactions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/smartapplication/model/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/smartapplication/model/Vendor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/smartapplication/model/VendorStoreId.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/smartapplication/repositories/AdminRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/smartapplication/repositories/CustomerRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/smartapplication/repositories/OrderItemRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/smartapplication/repositories/OrderItemRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/smartapplication/repositories/ProductRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/smartapplication/repositories/StoreRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/smartapplication/repositories/TransactionRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/smartapplication/repositories/UserRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/smartapplication/repositories/VendorRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/smartapplication/repositories/VendorStoreIdRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/smartapplication/services/CustomerService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/smartapplication/services/Implementations/CustomerServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/smartapplication/services/Implementations/LocationService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/smartapplication/services/Implementations/NotificationServiceImpl.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/smartapplication/services/Implementations/OrderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/smartapplication/services/Implementations/OrderServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/smartapplication/services/Implementations/StoreServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/smartapplication/services/Implementations/StoreServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/smartapplication/services/OrderServiceInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/smartapplication/services/OrderService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/smartapplication/services/CustomerServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/smartapplication/services/CustomerServiceImplTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/smartapplication/services/VendorServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/smartapplication/services/VendorServiceImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/smartapplication/services/Implementations/ProductServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/smartapplication/services/Implementations/StoreServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/smartapplication/services/Implementations/TransactionServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/smartapplication/services/Implementations/UserServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/smartapplication/services/Implementations/VendorStoreIdImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/smartapplication/services/NotificationService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/smartapplication/services/ProductService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/smartapplication/services/StoreService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/smartapplication/services/TransactionService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/smartapplication/services/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/smartapplication/services/VendorStoreIdentification.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/smartapplication/config/TestBeanConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/smartapplication/controller/LocationControllerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/smartapplication/services/CustomerServiceImplTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/smartapplication/services/OrderServiceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/smartapplication/services/VendorServiceImplTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +109,7 @@
         <option value="JUnit5 Test Class" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="Dockerfile" />
       </list>
     </option>
   </component>
@@ -72,34 +134,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.go.formatter.settings.were.checked": "true",
-    "RunOnceActivity.go.migrated.go.modules.settings": "true",
-    "Spring Boot.GasPurchaseCon.executor": "Run",
-    "WebServerToolWindowFactoryState": "false",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "git-widget-placeholder": "main",
-    "go.import.settings.migrated": "true",
-    "kotlin-language-version-configured": "true",
-    "last_directory_selection": "C:/Users/Daniel/Desktop/LGPXpress/src/main/java/org/smartapplication/services",
-    "last_opened_file_path": "C:/Users/Daniel/Desktop/GasPurchaseCon3",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
+    &quot;Spring Boot.GasPurchaseCon.executor&quot;: &quot;Run&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;daniel&quot;,
+    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_directory_selection&quot;: &quot;C:/Users/Daniel/Desktop/LGPXpress/src/main/java/org/smartapplication/services&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Daniel/Desktop/GasPurchaseCon3&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="org.smartapplication.services" />
@@ -175,6 +237,9 @@
       <workItem from="1716678222664" duration="31031000" />
       <workItem from="1716815456799" duration="1703000" />
       <workItem from="1717419995900" duration="13836000" />
+      <workItem from="1717492990253" duration="4935000" />
+      <workItem from="1717680956227" duration="228000" />
+      <workItem from="1717697617400" duration="42000" />
     </task>
     <servers />
   </component>

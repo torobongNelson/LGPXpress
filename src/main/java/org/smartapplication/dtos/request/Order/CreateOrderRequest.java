@@ -1,7 +1,6 @@
 package org.smartapplication.dtos.request.Order;
 
 import lombok.*;
-import org.smartapplication.model.Customer;
 import org.smartapplication.model.Order;
 import org.smartapplication.model.OrderItems;
 

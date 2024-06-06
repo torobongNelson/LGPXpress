@@ -2,20 +2,13 @@ package org.smartapplication.services.Implementations;
 
 import jakarta.transaction.Transactional;
 import lombok.AllArgsConstructor;
-import org.modelmapper.ModelMapper;
-import org.smartapplication.dtos.request.Order.CreateOrderRequest;
 import org.smartapplication.dtos.response.Order.CancelOrderResponse;
-import org.smartapplication.dtos.response.Order.CreateOrderResponse;
 import org.smartapplication.exceptions.OrderNotFoundException;
 import org.smartapplication.exceptions.UnpaidOrderAlreadyExists;
-import org.smartapplication.model.Customer;
 import org.smartapplication.model.Order;
 import org.smartapplication.model.OrderItems;
-import org.smartapplication.model.Product;
-import org.smartapplication.repositories.CustomerRepository;
 import org.smartapplication.repositories.OrderItemRepository;
 import org.smartapplication.repositories.OrderRepository;
-import org.smartapplication.repositories.ProductRepository;
 import org.smartapplication.services.OrderService;
 import org.springframework.stereotype.Service;
 

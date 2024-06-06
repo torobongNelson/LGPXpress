@@ -2,7 +2,6 @@ package org.smartapplication.repositories;
 
 import org.smartapplication.model.Order;
 import org.smartapplication.model.OrderItems;
-import org.smartapplication.model.Product;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Optional;
