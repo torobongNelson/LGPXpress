@@ -37,8 +37,6 @@ public class Vendor {
     @JoinColumn(name = "user_id")
     private User user;
 
-    @OneToMany(mappedBy = "vendor")
-    @JsonBackReference
-    private List<Product> product;
+
 
 }

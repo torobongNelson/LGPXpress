@@ -20,9 +20,6 @@ public class OrderItems {
     @JoinColumn(name = "order_id",referencedColumnName = "id", foreignKey = @ForeignKey(name = "FK_ORDER_ITEMS_ORDER"))
     private Order order;
 
-    @OneToOne
-    @JoinColumn(name = "product_id",referencedColumnName = "id", foreignKey = @ForeignKey(name = "FK_ORDER_ITEM_PRODUCT"))
-    private Product product;
 
     @NotEmpty(message = "quantity cannot be blank")
     private Integer quantity;
