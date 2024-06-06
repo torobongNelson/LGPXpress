@@ -4,22 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1f015587-da47-448b-8c15-539abb31515e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/smartapplication/controller/VendorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/smartapplication/controller/VendorController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/smartapplication/dtos/response/Order/CancelOrderResponse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/smartapplication/dtos/response/Order/CreateOrderResponse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/smartapplication/exceptions/OrderNotFoundException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/smartapplication/exceptions/UnpaidOrderAlreadyExists.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/smartapplication/model/Order.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/smartapplication/model/OrderItems.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/smartapplication/model/OrderItems.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/smartapplication/repositories/CustomerOrderRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/smartapplication/repositories/CustomerOrderRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/smartapplication/repositories/OrderItemRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/smartapplication/repositories/OrderItemRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/smartapplication/repositories/OrderRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/smartapplication/repositories/OrderRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/smartapplication/services/Implementations/OrderServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/smartapplication/services/OrderService.java" beforeDir="false" />
-    </list>
+    <list default="true" id="1f015587-da47-448b-8c15-539abb31515e" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
