@@ -6,6 +6,7 @@ import org.smartapplication.dtos.request.Vendor.AddToStoreRequest;
 import org.smartapplication.dtos.response.Product.AddProductResponse;
 import org.smartapplication.dtos.response.Product.ProductResponse;
 import org.smartapplication.dtos.response.Product.UpdateProductResponse;
+import org.smartapplication.exceptions.ProductAlreadyAddedToStoreException;
 import org.smartapplication.exceptions.VendorNotFoundException;
 import org.smartapplication.model.Product;
 import org.smartapplication.services.Implementations.ProductServiceImpl;
@@ -65,7 +66,7 @@ public class VendorController {
         try {
             storeService.addProductToStore(request.getProductId(), request.getVendorId());
             return new ResponseEntity<>(HttpStatus.CREATED);
-        } catch (VendorNotFoundException e) {
+        } catch (VendorNotFoundException | ProductAlreadyAddedToStoreException e) {
             return new ResponseEntity<>(HttpStatus.NOT_FOUND);
         }
     }
