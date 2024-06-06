@@ -15,8 +15,7 @@ public class Store {
     private Long id;
 
     @Column(nullable = false, unique = false)
-    private String storeId; //T-gurl, generate dis in your serviceClass for the vendor and is unique
-
+    private String storeId;
     private Long VendorId;
 
     private Long productId;
